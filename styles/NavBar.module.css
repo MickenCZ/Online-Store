@@ -1,0 +1,48 @@
+#nav {
+  background-color: purple;
+  max-width:120vw;
+  height: 80px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#storeIcon {
+  width: 60px;
+  height: 60px;
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(200deg) brightness(107%) contrast(101%); /*Makes svg white*/
+  margin-left:20px;
+  cursor: pointer;
+}
+
+#header {
+  color: white;
+  font-size: 40px;
+  font-size: bold;
+  font-family: sans-serif;
+  margin-left:40px;
+}
+
+#cartIcon {
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(200deg) brightness(107%) contrast(101%); /*Makes svg white*/
+  width: 60px;
+  height: 60px;
+  margin-left:auto; /*Puts it at the end*/
+  cursor: pointer;
+}
+
+#productsCount {
+  color:white;
+  background-color: red;
+  margin-right:40px;
+  border-radius: 50%;
+  font-size: 20px;
+  width:30px;
+  height: 30px;
+  text-align: center;
+  position: relative;
+  right:20px;
+  bottom:20px;
+  text-align: center;
+  padding:4px 0;
+}
