@@ -26,11 +26,9 @@ const Cart: NextPage = () => {
       products.reduce((prev, curr) => {
       return prev + (curr.count * curr.price)
       }, 0).toFixed(2)}</h1>
-    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
       <button id={styles.buy}>
-        Buy now!
+      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Buy now!</a>
       </button>
-    </a>
   </main>
   </>)
 }
